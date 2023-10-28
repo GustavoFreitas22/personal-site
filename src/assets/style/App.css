@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.Background {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/home.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.TitleSection {
+  height: 80vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.NavBar {
+  height: 10vh;
+  display: flex;
+  padding-top: 2%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.NavBar-Itens {
+  color: #ffffff;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 150%;
+}
+
+.Name {
+  font-size: 400%;
+  font-weight: 700;
+  background-image: linear-gradient(60deg, #e7e5e7, #9fcfe2);
+  background-clip: text;
+  color: transparent;
+  font-family: 'Press Start 2P', monospace;
+}
+
+.Title {
+  color: #716d79;
+  font-size: 200%;
+  background-image: linear-gradient(60deg, #f1f2f3, #35f1d2);   
+  background-clip: text;
+  color: transparent;
+  font-family: 'Press Start 2P', monospace;
+}
